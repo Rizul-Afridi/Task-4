@@ -1,0 +1,348 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Fira+Sans&family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@700&family=Lato:wght@700&family=Lavishly+Yours&family=Mea+Culpa&family=Montserrat&family=Open+Sans&family=Poppins&family=Press+Start+2P&family=Quicksand:wght@500&family=Roboto&family=Sail&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* overflow-x:hidden; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:70%;
+    margin:20px;
+}
+
+.heading{
+    background-color:rgb(31, 22, 40);
+    color:rgb(253, 248, 240);
+    position:relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    top:57px;
+    width:200px;
+    z-index:2;
+    font-size:25px;
+    padding:0px 30px;
+}
+
+.common{
+    width:100%;
+    height:35vh;
+    display: flex;
+    justify-content: center;
+    transform:rotatey(2deg) skewy(-2deg);
+    position:relative;
+    top:-20px;
+}
+
+.first-section{
+    height:50vh;
+    background-color: rgb(31, 22, 40);
+    border-radius: 30px 30px 0px 0px;
+    padding:40px 40px 0px 40px;
+    top:0px;
+    transform:rotatey(0deg) skewy(0deg);
+}
+
+.text-1{
+    font-family:sans-serif;
+}
+
+.inside-div{
+    width:100%;
+    border-radius:20px 20px 0px 0px;
+    border:5px solid rgb(253, 248, 240);
+    border-bottom:none;
+    text-align: center;
+    padding-top:10px;
+}
+
+.p1{
+    letter-spacing: 10px;
+    font-size:1.2rem;
+}
+
+.p2{
+    color:rgb(25, 19, 36);
+    text-align:center;
+    font-size:1.5rem;
+}
+
+.p3{
+    color:rgb(253, 248, 240);
+    text-align:center;
+    transform:rotatey(-2deg) skewy(2deg);
+}
+
+.s,.s1,.p4::first-letter{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sail', cursive;
+    font-size:4rem;
+}
+
+.s1{
+    font-size:6rem;
+}
+
+i{
+    color:white;
+    font-size: 1.2rem;  
+    padding:20px 0px;
+}
+
+.second-section{
+    background: url(./images/secong-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.second-inside-div{
+    width:100%;
+    border:5px solid rgb(253, 248, 240);
+    border-top:none;
+    border-bottom:none;
+    margin:0px 40px 0px 40px;
+}
+
+.sec-sub-div{
+    margin-left:30%;
+    width:60%;
+    padding:10px;
+    transform:rotatey(-2deg) skewy(2deg);
+}
+
+.third-section{
+    background-color:rgba(31, 22, 40,.97);
+    display: flex;
+}
+
+.s3{
+    margin-right:10px;
+    display: inline;
+    vertical-align:-10%;
+    line-height:-10%;
+}
+
+.sec-3{
+    color:rgb(253, 248, 240);
+}
+
+.inside-div-3{
+    margin-left:35%;
+    
+}
+
+.p3{
+    letter-spacing: 2px;
+}
+
+.fourth-section{
+    background-color: rgba(251, 212, 217);
+    height:38vh;
+}
+
+.fourth-sec-img{
+    width: 100%;
+    opacity: .2;
+}
+
+.p4{
+    position:absolute;
+    top:20px;
+    left:15%;
+    font-size:1.5rem;
+    transform:rotatey(-2deg) skewy(2deg);
+}
+
+.p4-2{
+    position:absolute;
+    top:80px;
+    left:23%;
+    transform:rotatey(-2deg) skewy(2deg);
+    display: inline-block;
+    width:30%;
+    font-size:1.1rem;
+    letter-spacing: 3px;
+}
+
+.fourth-sub-div{
+    width:50%;
+    position:absolute;
+    top:140px;
+    left:23%;
+    transform:rotatey(-2deg) skewy(2deg);
+}
+
+.p4::first-letter{
+    font-size:6rem;
+}
+
+
+.fifth-section{
+    background-color: rgba(242, 163, 182);
+}
+
+.p5{
+    position: absolute;
+    left:30%;
+    top:-2%;
+    color:white;
+}
+
+.p5-2{
+    position: absolute;
+    left:38%;
+    top:35%;
+    color:white;
+}
+
+.fifth-sec-div{
+    width:50%;
+    position:absolute;
+    top:130px;
+    left:38%;
+    transform:rotatey(-2deg) skewy(2deg);
+    color:white;
+}
+
+.sixth-img{
+    position: absolute;
+    width:100%;
+    opacity:.2;
+}
+
+.p6,.p6-2,.sixth-sec-div{
+    color:rgb(2, 2, 54);
+}
+
+.p6{
+    font-size:rem;
+    top:2%;
+    left:20%;
+}
+
+.sixth-sec-div{
+    top:60%;
+    left:25%;
+}
+
+.p6-2{
+    top:30%;
+    left:26%;
+}
+
+.seventh-section{
+    background-color: rgb(28, 21, 40);
+    height:40vh;
+}
+
+.seventh-sub-div{
+    color:rgb(248, 195, 206);
+    width:50%;
+    position:absolute;
+    top:140px;
+    left:40%;
+    transform:rotatey(-2deg) skewy(2deg);
+}
+
+.p7{
+    color:rgb(248, 195, 206);
+    width:100%;
+    left:30%;
+}
+
+.p7 span{
+    color:white;
+}
+
+.p7-2{
+    left:35%;
+}
+
+.p7-3{
+    top:120px;
+    left:40%;
+}
+
+.eighth-section{
+    background-color: rgba(242, 163, 182,.5);
+    /* opacity: .6; */
+}
+
+.p8{
+    color:rgb(28, 21, 40);
+}
+
+.loading-img{
+    width: 100%;
+    opacity: .5;
+    position:absolute;
+    top:-40px;
+}
+
+.ninth-section{
+    background:url(./images/sand-texture-sandy.jpg) no-repeat;
+    background-size: cover;
+    z-index:2;
+}
+
+.P9{
+    left:42%;
+}
+
+.ninth-sec-div{
+    top:100px;
+    left:42%;
+}
+
+.desert-image{
+    height:100%;
+    width:100%;
+    opacity:.1;
+    position:absolute;
+}
+
+.tenth-section{
+    background-color: rgb(220, 220, 221);
+    transform:rotatey(0deg) skewy(0deg);
+    position:relative;
+    top:-50px;
+    height:40vh;
+}
+
+.tenth-div{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: none;
+    padding:80px 0px;
+}
+
+.tenth-2nd-div{
+    text-align: right;
+}
+
+.p10{
+    margin-top:20px;
+}
+
+.p1{
+    color:white;
+}
